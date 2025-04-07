@@ -21,7 +21,7 @@ git clone https://github.com/google-research/big_vision.git /big_vision
 python -m pip install -r /big_vision/big_vision/requirements.txt
 ```
 
-Then download the checkpoints and owl_vit_single.py to ` ~/scenic/scenic/projects/owl_vit`.
+Then download the checkpoints([OWLv2 CLIP B/16 ST/FT ens](https://storage.googleapis.com/scenic-bucket/owl_vit/checkpoints/owl2-b16-960-st-ngrams-curated-ft-lvisbase-ens-cold-weight-05_209b65b)) and owl_vit_single.py to ` ~/scenic/scenic/projects/owl_vit`.
 
 ## SAM environment configuration
 
@@ -34,7 +34,7 @@ pip install opencv-python pycocotools matplotlib onnxruntime onnx open3d
 ```
 Install PyTorch and TorchVision dependencies following [this](https://pytorch.org/get-started/locally/).
 
-Then download the checkpoints(sam_vit_b_01ec64.pth) and sam_prompt.py and full_point.py to `~/sam`.
+Then download the checkpoints([sam_vit_b_01ec64.pth](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_b_01ec64.pth)) and sam_prompt.py and full_point.py to `~/sam`.
 
 ## Point Cloud Registration Implementation
 ```bash
