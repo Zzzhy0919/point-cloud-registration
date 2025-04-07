@@ -22,6 +22,7 @@ python -m pip install -r /big_vision/big_vision/requirements.txt
 ```
 
 Then download the checkpoints([OWLv2 CLIP B/16 ST/FT ens](https://storage.googleapis.com/scenic-bucket/owl_vit/checkpoints/owl2-b16-960-st-ngrams-curated-ft-lvisbase-ens-cold-weight-05_209b65b)) and owl_vit_single.py to ` ~/scenic/scenic/projects/owl_vit`.
+Remember to modify "checkpoint_path" in `~/anaconda3/envs/owl/lib/python3.11/site-packages/scenic/projects/owl_vit/configs/owl_v2_clip_b16.py`. Replace `checkpoint_path = CHECKPOINTS.get(init_mode, None)` with your own path to save the time of downloading checkpoints from website.
 
 ## SAM environment configuration
 
